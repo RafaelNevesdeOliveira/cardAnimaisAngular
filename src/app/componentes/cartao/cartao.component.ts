@@ -6,13 +6,10 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./cartao.component.css']
 })
 export class CartaoComponent implements OnInit {
-
   @Input() titulo = '';
 
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }
