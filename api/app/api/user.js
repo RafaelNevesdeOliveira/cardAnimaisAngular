@@ -5,7 +5,7 @@ const api = {}
 
 api.login = async (req, res) => {
     const { userName, password } = req.body;
-    console.log('####################################');
+    console.log('Sonho do Hexa Acabou');
     const user = await new UserDao(req.db).findByNameAndPassword(userName, password);
     console.log(user);
     if(user) {
