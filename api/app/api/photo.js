@@ -11,7 +11,7 @@ const userCanDelete = user => photo => photo.userId == user.id;
 const defaultExtension = '.jpg';
 
 api.list = async (req, res) => {
-    console.log('Chora Palmeiras');
+    console.log('Vai Corinthians');
     
     const { userName } = req.params;
     const { page } = req.query;
