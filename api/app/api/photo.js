@@ -11,7 +11,8 @@ const userCanDelete = user => photo => photo.userId == user.id;
 const defaultExtension = '.jpg';
 
 api.list = async (req, res) => {
-    console.log('####################################');
+    console.log('TA TUDO ERRADO, faz direito!!!!!!!');
+    
     const { userName } = req.params;
     const { page } = req.query;
     const user = await new UserDao(req.db).findByName(userName);
